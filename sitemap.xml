@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/authors/hormuz-buhariwalla/</loc>
+</url>
+<url>
+<loc>/frc-robot/</loc>
+<lastmod>2026-10-10T12:00:00-05:00</lastmod>
+<image:image>
+<image:loc>/media/posts/4/p6-0.webp</image:loc>
+<image:title><![CDATA[FRC Robot]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/4/p6-0.webp</image:loc>
+<image:title><![CDATA[Full-system robot CAD assembly]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/4/p6-1.webp</image:loc>
+<image:title><![CDATA[Assembled competition robot]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/inverted-pendulum/</loc>
+<lastmod>2026-10-14T20:40:42-05:00</lastmod>
+<image:image>
+<image:loc>/media/posts/2/p4-0.webp</image:loc>
+<image:title><![CDATA[Inverted Pendulum]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/2/p4-2.webp</image:loc>
+<image:title><![CDATA[Fabricated cart–pendulum hardware]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/2/p4-1.webp</image:loc>
+<image:title><![CDATA[MATLAB simulated disturbance response — pendulum angle and cart position]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/mobile-testing-rack/</loc>
+<lastmod>2026-10-11T12:00:00-05:00</lastmod>
+<image:image>
+<image:loc>/media/posts/3/p5-1.webp</image:loc>
+<image:title><![CDATA[Fabricated and assembled mobile testing rack]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/3/p5-0.webp</image:loc>
+<image:title><![CDATA[Initial rack CAD assembly]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/3/p5-1.webp</image:loc>
+<image:title><![CDATA[Fabricated and assembled rack]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/3/p5-2.webp</image:loc>
+<image:title><![CDATA[Electrically integrated rack on the factory floor]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/tags/controls-and-mechatronics/</loc>
+</url>
+<url>
+<loc>/tags/mechanical-design/</loc>
+</url>
+<url>
+<loc>/tags/product-and-manufacturing/</loc>
+</url>
+<url>
+<loc>/tags/robotics-and-integration/</loc>
+</url>
+<url>
+<loc>/wheelchair-retrofit/</loc>
+<lastmod>2026-10-14T20:37:46-05:00</lastmod>
+<image:image>
+<image:loc>/media/posts/1/system-on-wheel.jpg</image:loc>
+<image:title><![CDATA[Wheelchair-mounted exercise retrofit mechanism attached to the wheel]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/1/p2-1.webp</image:loc>
+<image:title><![CDATA[Wheelchair-mounted physical prototype]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/1/p3-0.webp</image:loc>
+<image:title><![CDATA[Reinforced clutch and brake assembly]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/1/p3-1.webp</image:loc>
+<image:title><![CDATA[Adjustable wheelchair mounting interface]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/1/p3-2.webp</image:loc>
+<image:title><![CDATA[Resistance adjustment device]]></image:title>
+</image:image>
+</url>
+</urlset>

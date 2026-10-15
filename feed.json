@@ -1,0 +1,77 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hormuz Buhariwalla Engineering Portfolio",
+    "description": "",
+    "home_page_url": "",
+    "feed_url": "/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Hormuz Buhariwalla"
+    },
+    "items": [
+        {
+            "id": "/wheelchair-retrofit/",
+            "url": "/wheelchair-retrofit/",
+            "title": "Wheelchair-Mounted Exercise Retrofit Kit",
+            "summary": "A removable resistance-training system for manual wheelchairs, developed around accessible exercise, quick installation, and a compact mechanical package. Project manager · Core mechanical design ·&hellip;",
+            "content_html": "<p class=\"lead\">A removable resistance-training system for manual wheelchairs, developed around accessible exercise, quick installation, and a compact mechanical package.</p>\n<p>Project manager · Core mechanical design · Senior capstone · August 2025–May 2026</p>\n<div class=\"metrics\">\n<div><strong>3–60 lbf</strong>Adjustable resistance</div>\n<div><strong>&lt;5 lb</strong>Device mass</div>\n<div><strong>&lt;$150</strong>Production cost</div>\n<div><strong>&lt;5 min</strong>Validated setup time</div>\n</div>\n<h2>The challenge</h2>\n<p>Integrate adjustable resistance and reliable cable return into a removable device that fits manual wheelchairs. The mounting interface, braking mechanism, and retraction system needed to work together while keeping fabrication practical and installation quick.</p>\n<h2>My contribution</h2>\n<p>Developed the core mechanism and full SolidWorks assembly, integrating the mounting, resistance, and retraction subsystems. Led design, fabrication, assembly, and iterative testing using commercial components and custom parts.</p>\n<h2>Engineering approach</h2>\n<h3>Follow the load path</h3>\n<p>Cable pull engages the spool and clutch, the brake creates resistance, and the spring returns the cable to the starting position. This sequence made alignment and structural support central to the design.</p>\n<h3>Design the wheelchair interface</h3>\n<p>Adjustable mounting features and revised hook geometry addressed inconsistent fit across wheelchairs while supporting quick installation and removal.</p>\n<h3>Make resistance repeatable</h3>\n<p>Before use brake handle calibration addressed variation between installations and supported accurate, repeatable resistance setup.</p>\n<h2>Design iteration</h2>\n<h3>Clutch deflection and bearing instability</h3>\n<p><strong>Revision:</strong> Shortened and reinforced the clutch-engagement mechanism; added an additional bearing to support axial loading.</p>\n<p><strong>Result:</strong> More stable load path and improved clutch/rotor alignment.</p>\n<h3>Limited compatibility and inconsistent fit</h3>\n<p><strong>Revision:</strong> Revised hook geometry and added adjustable mounting features.</p>\n<p><strong>Result:</strong> Broader compatibility with quick installation and removal.</p>\n<h3>Resistance settings varied between installations</h3>\n<p><strong>Revision:</strong> Added before usage handle calibration.</p>\n<p><strong>Result:</strong> More repeatable resistance setup between uses.</p>\n<h2>Project gallery</h2>\n<figure class=\"post__image\"><img src=\"/media/posts/1/p2-1.webp\" alt=\"Wheelchair-mounted physical prototype\" loading=\"lazy\">\n<figcaption>Wheelchair-mounted physical prototype</figcaption>\n</figure>\n<figure class=\"post__image\"><img src=\"/media/posts/1/p3-0.webp\" alt=\"Reinforced clutch and brake assembly\" loading=\"lazy\">\n<figcaption>Reinforced clutch and brake assembly</figcaption>\n</figure>\n<figure class=\"post__image\"><img src=\"/media/posts/1/p3-1.webp\" alt=\"Adjustable wheelchair mounting interface\" loading=\"lazy\">\n<figcaption>Adjustable wheelchair mounting interface</figcaption>\n</figure>\n<figure class=\"post__image\"><img src=\"/media/posts/1/p3-2.webp\" alt=\"Resistance adjustment device\" loading=\"lazy\">\n<figcaption>Resistance adjustment device</figcaption>\n</figure>\n<h2>Outcome</h2>\n<p>The prototype combined braking, retraction, and mounting into a portable exercise device. Static, cyclic, and load testing informed revisions to critical components and interfaces.</p>",
+            "image": "/media/posts/1/system-on-wheel.jpg",
+            "author": {
+                "name": "Hormuz Buhariwalla"
+            },
+            "tags": [
+                   "Mechanical design"
+            ],
+            "date_published": "2026-10-13T12:00:00-05:00",
+            "date_modified": "2026-10-14T20:37:46-05:00"
+        },
+        {
+            "id": "/inverted-pendulum/",
+            "url": "/inverted-pendulum/",
+            "title": "Inverted Pendulum",
+            "summary": "A cart–pendulum platform connecting analytical dynamics, controller simulation, encoder feedback, and physical tuning. Independent project · Modeling through hardware · June 2025–April 2026 Translate the&hellip;",
+            "content_html": "<p class=\"lead\">A cart–pendulum platform connecting analytical dynamics, controller simulation, encoder feedback, and physical tuning.</p>\n<p>Independent project · Modeling through hardware · June 2025–April 2026</p>\n<div class=\"metrics\">\n<div><strong>Model → hardware</strong>End-to-end development</div>\n<div><strong>Encoder feedback</strong>Real-time sensing</div>\n<div><strong>DC motor</strong>Cart actuation</div>\n</div>\n<h2>The challenge</h2>\n<p>Translate the unstable upright behavior of a pendulum into a physical system that can be sensed and controlled. Success depended on the interaction between the model, sensor feedback, motor response, and mechanical assembly.</p>\n<h2>My contribution</h2>\n<p>Derived equations of motion, simulated system dynamics in MATLAB, designed and fabricated the cart–pendulum system, and created closed-loop control with Arduino, DC motor, and rotary encoder.</p>\n<h2>Engineering approach</h2>\n<h3>Model the equilibrium</h3>\n<p>Developed nonlinear dynamics and linearized the model about upright equilibrium to evaluate controller behavior in MATLAB.</p>\n<h3>Close the loop</h3>\n<p>Connected encoder-based feedback to Arduino control and DC motor actuation, bridging the simulation and hardware environments.</p>\n<h3>Tune the physical system</h3>\n<p>Developed and debugged PID algorithms in MATLAB and Arduino C++, iteratively diagnosing sensor feedback, software, motor response, and mechanical behavior.</p>\n<h2>Project gallery</h2>\n<figure class=\"post__image\"><img src=\"/media/posts/2/p4-2.webp\" alt=\"Fabricated cart–pendulum hardware\" loading=\"lazy\">\n<figcaption>Fabricated cart–pendulum hardware</figcaption>\n</figure>\n<figure class=\"post__image\"><img src=\"/media/posts/2/p4-1.webp\" alt=\"MATLAB simulated disturbance response — pendulum angle and cart position\" loading=\"lazy\">\n<figcaption>MATLAB simulated disturbance response — pendulum angle and cart position</figcaption>\n</figure>\n<h2>Outcome</h2>\n<p>Built a functional mechatronics test platform and connected analytical modeling, simulated disturbance response, and real-time implementation. Hardware tuning worked toward pendulum stabilization.</p>",
+            "image": "/media/posts/2/p4-0.webp",
+            "author": {
+                "name": "Hormuz Buhariwalla"
+            },
+            "tags": [
+                   "Controls &amp; mechatronics"
+            ],
+            "date_published": "2026-10-12T12:00:00-05:00",
+            "date_modified": "2026-10-14T20:40:42-05:00"
+        },
+        {
+            "id": "/mobile-testing-rack/",
+            "url": "/mobile-testing-rack/",
+            "title": "Mobile Programming &amp; Testing Rack",
+            "summary": "A mobile, serviceable rack designed to organize approximately $70,000 of production test equipment and support in-shop programming and equipment setup. Engineering intern · Full mechanical&hellip;",
+            "content_html": "<p class=\"lead\">A mobile, serviceable rack designed to organize approximately $70,000 of production test equipment and support in-shop programming and equipment setup.</p><p>Engineering intern · Full mechanical ownership · Eaton · May–August 2024</p><div class=\"metrics\"><div><strong>$70k</strong><span>Equipment supported</span></div><div><strong>Concept → build</strong><span>Mechanical ownership</span></div><div><strong>Factory deployed</strong><span>Production testing</span></div></div><h2>The challenge</h2><p>Create a secure, organized equipment platform that could move around the shop and support programming and testing before on-site installation. The structure needed to accommodate equipment, mechanical assembly, and electrical integration.</p><h2>My contribution</h2><p>Developed the rack from initial concept through CAD, in-house tubing fabrication, and complete mechanical assembly. Drilled and assembled the structure manually before electrical integration and factory-floor deployment.</p><h2>Engineering approach</h2><h3>Package the equipment</h3><p>Used CAD to define the rack structure and equipment layout around secure organization, mobility, and serviceability.</p><h3>Build in-house</h3><p>Translated the model into a fabricated tubing structure and assembled the mechanical hardware using available shop processes.</p><h3>Integrate and deploy</h3><p>Delivered the mechanical assembly for electrical integration and deployment in production validation workflows.</p><h2>Project gallery</h2><figure><figure class=\"post__image\"><img src=\"/media/posts/3/p5-0.webp\" alt=\"Initial rack CAD assembly\" loading=\"lazy\" ></figure><figcaption>Initial rack CAD assembly</figcaption></figure><figure><figure class=\"post__image\"><img src=\"/media/posts/3/p5-1.webp\" alt=\"Fabricated and assembled rack\" loading=\"lazy\" ></figure><figcaption>Fabricated and assembled rack</figcaption></figure><figure><figure class=\"post__image\"><img src=\"/media/posts/3/p5-2.webp\" alt=\"Electrically integrated rack on the factory floor\" loading=\"lazy\" ></figure><figcaption>Electrically integrated rack on the factory floor</figcaption></figure><figure class=\"assembly-video\"><video loading=\"lazy\" controls playsinline preload=\"metadata\" poster=\"/media/posts/3/p5-1.webp\" aria-label=\"Mobile testing rack assembly timelapse\"><source src=\"/media/posts/3/assembly-timelapse.mp4\" type=\"video/mp4\">Your browser does not support this video. <a href=\"/media/posts/3/assembly-timelapse.mp4\">Download the assembly timelapse</a>.</video><figcaption>Mobile testing rack assembly timelapse</figcaption></figure><h2>Outcome</h2><p>Delivered a finished, electrically integrated production rack. It enabled in-shop code deployment and equipment setup, helping reduce work required at installation sites.</p>",
+            "image": "/media/posts/3/p5-1.webp",
+            "author": {
+                "name": "Hormuz Buhariwalla"
+            },
+            "tags": [
+                   "Product &amp; manufacturing"
+            ],
+            "date_published": "2026-10-11T12:00:00-05:00",
+            "date_modified": "2026-10-11T12:00:00-05:00"
+        },
+        {
+            "id": "/frc-robot/",
+            "url": "/frc-robot/",
+            "title": "FRC Robot",
+            "summary": "A competition robot integrating drivetrain, intake, shooter, and climbing mechanisms inside a constrained frame. Full-system mechanical integration lead · FIRST Robotics Competition Coordinate multiple mechanisms&hellip;",
+            "content_html": "<p class=\"lead\">A competition robot integrating drivetrain, intake, shooter, and climbing mechanisms inside a constrained frame.</p><p>Full-system mechanical integration lead · FIRST Robotics Competition</p><div class=\"metrics\"><div><strong>4 subsystems</strong><span>Mechanical interfaces</span></div><div><strong>CAD → competition</strong><span>Design and integration</span></div><div><strong>Mechanical + controls</strong><span>Cross-functional work</span></div></div><h2>The challenge</h2><p>Coordinate multiple mechanisms within a constrained robot frame while accommodating motors, sensors, pneumatics, and wiring. Individual subsystem designs needed to become one assembled, testable machine.</p><h2>My contribution</h2><p>Led full-system assembly and coordinated the mechanical interfaces between the drivetrain, intake, shooter, and climbing mechanisms. Worked with electrical and programming teams through fabrication, assembly, and controls integration.</p><h2>Engineering approach</h2><h3>Resolve the interfaces</h3><p>Coordinated drivetrain and mechanism placement in the full CAD assembly, with attention to subsystem mounting and packaging.</p><h3>Build across disciplines</h3><p>Worked with electrical and programming teammates to incorporate actuation, feedback, pneumatics, and wiring within the robot.</p><h3>Iterate as a system</h3><p>Assembled, tested, and iterated the integrated mechanical, electrical, and control systems for competition use.</p><h2>Project gallery</h2><figure><figure class=\"post__image\"><img src=\"/media/posts/4/p6-0.webp\" alt=\"Full-system robot CAD assembly\" loading=\"lazy\" ></figure><figcaption>Full-system robot CAD assembly</figcaption></figure><figure><figure class=\"post__image\"><img src=\"/media/posts/4/p6-1.webp\" alt=\"Assembled competition robot\" loading=\"lazy\" ></figure><figcaption>Assembled competition robot</figcaption></figure><h2>Outcome</h2><p>Delivered an integrated competition robot through CAD, fabrication, assembly, and testing. The project demonstrates full-system ownership and collaboration across mechanical, electrical, and programming disciplines.</p>",
+            "image": "/media/posts/4/p6-0.webp",
+            "author": {
+                "name": "Hormuz Buhariwalla"
+            },
+            "tags": [
+                   "Robotics &amp; integration"
+            ],
+            "date_published": "2026-10-10T12:00:00-05:00",
+            "date_modified": "2026-10-10T12:00:00-05:00"
+        }
+    ]
+}
