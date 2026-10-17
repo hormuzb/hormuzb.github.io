@@ -6,3 +6,10 @@ if(filters){[...new Set(cards.map(c=>c.dataset.category))].forEach(c=>{const b=d
 const caseNav=document.querySelector('#case-nav');if(caseNav)document.querySelectorAll('.case-content h2').forEach((h,i)=>{h.id=h.id||'section-'+i;const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;caseNav.append(a)});
 const dialog=document.querySelector('#lightbox');function enlarge(image){dialog.querySelector('img').src=image.src;dialog.querySelector('img').alt=image.alt;dialog.querySelector('p').textContent=image.closest('figure')?.querySelector('figcaption')?.textContent||image.alt;dialog.showModal()}
 document.querySelectorAll('.zoom').forEach(b=>b.addEventListener('click',()=>enlarge(b.querySelector('img'))));document.querySelectorAll('.case-content figure img').forEach(i=>{const b=document.createElement('button');b.className='zoom';b.setAttribute('aria-label','Enlarge '+i.alt);i.replaceWith(b);b.append(i);b.addEventListener('click',()=>enlarge(i))});dialog?.querySelector('button').addEventListener('click',()=>dialog.close());dialog?.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
+
+// Offer browser email options even when the visitor has no default email app.
+const contactDialog=document.querySelector('#contact-dialog');
+document.querySelector('[data-contact-open]')?.addEventListener('click',()=>contactDialog.showModal());
+contactDialog?.querySelector('[data-contact-close]').addEventListener('click',()=>contactDialog.close());
+contactDialog?.addEventListener('click',event=>{if(event.target===contactDialog){const box=contactDialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)contactDialog.close()}});
+contactDialog?.querySelector('[data-copy-contact]').addEventListener('click',async()=>{const email=contactDialog.querySelector('.contact-address').textContent.trim();const status=contactDialog.querySelector('[role="status"]');try{await navigator.clipboard.writeText(email);status.textContent='Email address copied.'}catch{status.textContent='Copy this address: '+email}});
