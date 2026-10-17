@@ -20,7 +20,3 @@
 .rack-gallery>.assembly-video{grid-column:1/-1;margin-top:12px}
 .assembly-video video{display:block;width:100%;height:auto;max-height:680px;background:#292925}
 @media(max-width:750px){.rack-gallery{grid-template-columns:1fr;gap:30px}.rack-gallery>figure img,.rack-gallery .zoom img{height:340px}}
-
-#contact-dialog{width:min(460px,calc(100vw - 32px));padding:28px;color:var(--ink);border:1px solid var(--line);text-align:left}
-#contact-dialog h3{font-size:30px;margin:8px 0 16px}#contact-dialog p{text-align:left}#contact-dialog .contact-address{overflow-wrap:anywhere;font-size:15px;margin:16px 0 24px}
-#contact-dialog .contact-options{display:grid;gap:12px}#contact-dialog .button{margin:0;width:100%;display:flex;background:var(--ink);color:var(--paper);padding:13px 18px;border:1px solid var(--ink);font-size:13px;text-align:left}#contact-dialog .button:hover{background:var(--brown)}#contact-dialog .copy-status{margin-top:16px;min-height:20px}
